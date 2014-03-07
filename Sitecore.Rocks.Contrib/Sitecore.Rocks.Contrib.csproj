@@ -32,9 +32,25 @@
   <ItemGroup>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
-    <Reference Include="Sitecore.Rocks">
-      <HintPath>..\Components\Sitecore.Rocks.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="Sitecore.Rocks, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a3d60f56f7d71b90, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Sitecore.Rocks.Client.1.2.0-beta1\lib\Sitecore.Rocks.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Rocks.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=97d4151bbb4c9bdf, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Sitecore.Rocks.Client.1.2.0-beta1\lib\Sitecore.Rocks.Plugins.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Rocks.Speak, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bde424fe5a27fd6a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Sitecore.Rocks.Client.1.2.0-beta1\lib\Sitecore.Rocks.Speak.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Rocks.Validation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=87bd4324f13866a8, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Sitecore.Rocks.Client.1.2.0-beta1\lib\Sitecore.Rocks.Validation.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Rocks.VisualStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1cc94664b6ed6bb0, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Sitecore.Rocks.Client.1.2.0-beta1\lib\Sitecore.Rocks.VisualStudio.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -49,13 +65,10 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Sitecore.Rocks.Server.Contrib\Sitecore.Rocks.Server.Contrib.csproj">
-      <Project>{356c34fd-018c-48d1-b784-02ce0704f675}</Project>
-      <Name>Sitecore.Rocks.Server.Contrib</Name>
-    </ProjectReference>
+    <Content Include="Readme.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Readme.txt" />
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

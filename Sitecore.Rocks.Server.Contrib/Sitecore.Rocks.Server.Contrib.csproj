@@ -30,13 +30,33 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Sitecore.Rocks.Server">
-      <HintPath>..\Components\Sitecore.Rocks.Server.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="Sitecore.Rocks.Server, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Sitecore.Rocks.Server.1.2.0-beta1\lib\Sitecore.Rocks.Server.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.Rocks.Server.Core">
-      <HintPath>..\Components\Sitecore.Rocks.Server.Core.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="Sitecore.Rocks.Server.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Sitecore.Rocks.Server.1.2.0-beta1\lib\Sitecore.Rocks.Server.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Rocks.Server.Lucene.2313, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Sitecore.Rocks.Server.1.2.0-beta1\lib\Sitecore.Rocks.Server.Lucene.2313.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Rocks.Server.Lucene.2941, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Sitecore.Rocks.Server.1.2.0-beta1\lib\Sitecore.Rocks.Server.Lucene.2941.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Rocks.Server.Lucene.3030, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Sitecore.Rocks.Server.1.2.0-beta1\lib\Sitecore.Rocks.Server.Lucene.3030.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Rocks.Server.Speak, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Sitecore.Rocks.Server.1.2.0-beta1\lib\Sitecore.Rocks.Server.Speak.dll</HintPath>
+    </Reference>
+    <Reference Include="Sitecore.Rocks.Server.Validation, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\packages\Sitecore.Rocks.Server.1.2.0-beta1\lib\Sitecore.Rocks.Server.Validation.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -51,6 +71,9 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="Requests\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
