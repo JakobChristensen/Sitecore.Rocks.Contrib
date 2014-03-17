@@ -23,7 +23,7 @@ Adds an Upload Media Files command to any item named "Media Library" in the Site
    or for Visual Studio, browse to "devenv.exe", e.g.:
    "C:\Program Files (x86)\Microsoft Visual Studio 12.0\Common7\IDE\devenv.exe"
 4. Set Command Line Arguments to the output folder of the Sitecore.Rocks.Contrib project, e.g.:
-   "-rocks:plugins c:\Sitecore\Sitecore.Rocks.Contrib\Sitecore.Rocks.Contrib\bin\Debug"
+   "/rocks.plugin c:\Sitecore\Sitecore.Rocks.Contrib\Sitecore.Rocks.Contrib\bin\Debug"
 
 Please notice that this way of debugging in Visual Studio will work until Sitecore Rocks version 1.2.0. Until then use Sitecore Rocks Windows.
 
