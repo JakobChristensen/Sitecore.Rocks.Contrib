@@ -2,7 +2,7 @@
 <package >
   <metadata>
     <id>Sitecore.Rocks.Contrib</id>
-    <version>1.0.0</version>
+    <version>1.2.0</version>
     <title>Sitecore Rocks Contrib</title>
     <authors>Sitecore Rocks Community</authors>
     <description>Makes Sitecore developers even more happy!</description>
