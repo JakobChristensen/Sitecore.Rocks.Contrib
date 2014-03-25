@@ -25,8 +25,6 @@ Adds an Upload Media Files command to any item named "Media Library" in the Site
 4. Set Command Line Arguments to the output folder of the Sitecore.Rocks.Contrib project, e.g.:
    "-rocks:plugins c:\Sitecore\Sitecore.Rocks.Contrib\Sitecore.Rocks.Contrib\bin\Debug"
 
-Please notice that this way of debugging in Visual Studio will work until Sitecore Rocks version 1.2.0. Until then use Sitecore Rocks Windows.
-
 ## Development links
 
 [Sitecore Rocks on sdn.sitecore.net](http://sdn.sitecore.net/Products/Sitecore%20Rocks.aspx) 
