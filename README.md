@@ -27,6 +27,8 @@ Adds an Upload Media Files command to any item named "Media Library" in the Site
 
 ## Development links
 
+[Videos on Sitecore Rocks plugin development](https://www.youtube.com/playlist?list=PLWIbrolNZWfk2WZcNefluTlW0QQmrMj1q)
+
 [Sitecore Rocks on sdn.sitecore.net](http://sdn.sitecore.net/Products/Sitecore%20Rocks.aspx) 
 
 [Sitecore Rocks wiki](http://vsplugins.sitecore.net)
