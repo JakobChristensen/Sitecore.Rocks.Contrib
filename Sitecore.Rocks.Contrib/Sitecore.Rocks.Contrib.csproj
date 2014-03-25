@@ -32,29 +32,24 @@
   <ItemGroup>
     <Reference Include="PresentationCore" />
     <Reference Include="PresentationFramework" />
-    <Reference Include="Sitecore.Rocks, Version=1.0.0.0, Culture=neutral, PublicKeyToken=a3d60f56f7d71b90, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Sitecore.Rocks.Client.1.2.0-beta1\lib\Sitecore.Rocks.dll</HintPath>
+    <Reference Include="Sitecore.Rocks">
+      <HintPath>..\packages\Sitecore.Rocks.Client.1.2.0\lib\net40\Sitecore.Rocks.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.Rocks.Plugins, Version=1.0.0.0, Culture=neutral, PublicKeyToken=97d4151bbb4c9bdf, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Sitecore.Rocks.Client.1.2.0-beta1\lib\Sitecore.Rocks.Plugins.dll</HintPath>
+    <Reference Include="Sitecore.Rocks.Plugins">
+      <HintPath>..\packages\Sitecore.Rocks.Client.1.2.0\lib\net40\Sitecore.Rocks.Plugins.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.Rocks.Speak, Version=1.0.0.0, Culture=neutral, PublicKeyToken=bde424fe5a27fd6a, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Sitecore.Rocks.Client.1.2.0-beta1\lib\Sitecore.Rocks.Speak.dll</HintPath>
+    <Reference Include="Sitecore.Rocks.Speak">
+      <HintPath>..\packages\Sitecore.Rocks.Client.1.2.0\lib\net40\Sitecore.Rocks.Speak.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.Rocks.Validation, Version=1.0.0.0, Culture=neutral, PublicKeyToken=87bd4324f13866a8, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Sitecore.Rocks.Client.1.2.0-beta1\lib\Sitecore.Rocks.Validation.dll</HintPath>
+    <Reference Include="Sitecore.Rocks.Validation">
+      <HintPath>..\packages\Sitecore.Rocks.Client.1.2.0\lib\net40\Sitecore.Rocks.Validation.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Sitecore.Rocks.VisualStudio, Version=1.0.0.0, Culture=neutral, PublicKeyToken=1cc94664b6ed6bb0, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Sitecore.Rocks.Client.1.2.0-beta1\lib\Sitecore.Rocks.VisualStudio.dll</HintPath>
+    <Reference Include="Sitecore.Rocks.VisualStudio">
+      <HintPath>..\packages\Sitecore.Rocks.Client.1.2.0\lib\net40\Sitecore.Rocks.VisualStudio.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="System" />
@@ -83,9 +78,6 @@
     <Content Include="Readme.txt" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
     <Page Include="UI\ImportExportSettings\ImportExportWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
@@ -94,6 +86,9 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </Page>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>

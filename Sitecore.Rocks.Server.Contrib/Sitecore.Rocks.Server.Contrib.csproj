@@ -30,40 +30,27 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Sitecore.Rocks.Server, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Sitecore.Rocks.Server.1.2.0-beta1\lib\Sitecore.Rocks.Server.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="Sitecore.Rocks.Server">
+      <HintPath>..\packages\Sitecore.Rocks.Server.1.2.0.1\lib\net45\Sitecore.Rocks.Server.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.Rocks.Server.Core, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Sitecore.Rocks.Server.1.2.0-beta1\lib\Sitecore.Rocks.Server.Core.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="Sitecore.Rocks.Server.Core">
+      <HintPath>..\packages\Sitecore.Rocks.Server.1.2.0.1\lib\net45\Sitecore.Rocks.Server.Core.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.Rocks.Server.Lucene.2313, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Sitecore.Rocks.Server.1.2.0-beta1\lib\Sitecore.Rocks.Server.Lucene.2313.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="Sitecore.Rocks.Server.Lucene.2313">
+      <HintPath>..\packages\Sitecore.Rocks.Server.1.2.0.1\lib\net45\Sitecore.Rocks.Server.Lucene.2313.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.Rocks.Server.Lucene.2941, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Sitecore.Rocks.Server.1.2.0-beta1\lib\Sitecore.Rocks.Server.Lucene.2941.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="Sitecore.Rocks.Server.Lucene.2941">
+      <HintPath>..\packages\Sitecore.Rocks.Server.1.2.0.1\lib\net45\Sitecore.Rocks.Server.Lucene.2941.dll</HintPath>
     </Reference>
     <Reference Include="Sitecore.Rocks.Server.Lucene.3030, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
       <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Sitecore.Rocks.Server.1.2.0-beta1\lib\Sitecore.Rocks.Server.Lucene.3030.dll</HintPath>
-      <Private>False</Private>
+      <HintPath>..\packages\Sitecore.Rocks.Server.1.2.0.1\lib\net45\Sitecore.Rocks.Server.Lucene.3030.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.Rocks.Server.Speak, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Sitecore.Rocks.Server.1.2.0-beta1\lib\Sitecore.Rocks.Server.Speak.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="Sitecore.Rocks.Server.Speak">
+      <HintPath>..\packages\Sitecore.Rocks.Server.1.2.0.1\lib\net45\Sitecore.Rocks.Server.Speak.dll</HintPath>
     </Reference>
-    <Reference Include="Sitecore.Rocks.Server.Validation, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\Sitecore.Rocks.Server.1.2.0-beta1\lib\Sitecore.Rocks.Server.Validation.dll</HintPath>
-      <Private>False</Private>
+    <Reference Include="Sitecore.Rocks.Server.Validation">
+      <HintPath>..\packages\Sitecore.Rocks.Server.1.2.0.1\lib\net45\Sitecore.Rocks.Server.Validation.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -76,7 +63,6 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
