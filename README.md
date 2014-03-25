@@ -6,8 +6,10 @@ Community contributions for Sitecore Rocks.
 ## Overview
 This plugin contains a number of enhancements to Sitecore Rocks (Visual Studio and Windows). 
 
-#### Upload Media Files command
-Adds an Upload Media Files command to any item named "Media Library" in the Sitecore Explorer.
+* Adds an Upload Media Files command to any item named "Media Library" in the Sitecore Explorer.
+* Pipeline Dump
+* Import/Export Settings
+* Copy Short ID to Clipboard
 
 ## Getting Started
 
