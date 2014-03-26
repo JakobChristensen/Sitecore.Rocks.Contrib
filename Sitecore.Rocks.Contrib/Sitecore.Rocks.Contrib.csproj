@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ContentTrees\Commands\Editing\CopyShortIdToClipboard.cs" />
+    <Compile Include="ContentTrees\Commands\Editing\DuplicateLatestVersionOnly.cs" />
     <Compile Include="ContentTrees\Commands\Media\UploadMediaFiles.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UI\ImportExportSettings\ImportExportSettingsCommand.cs" />
@@ -90,6 +91,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sitecore.Rocks.Server.Contrib\Sitecore.Rocks.Server.Contrib.csproj">
+      <Project>{356c34fd-018c-48d1-b784-02ce0704f675}</Project>
+      <Name>Sitecore.Rocks.Server.Contrib</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
