@@ -10,6 +10,7 @@ This plugin contains a number of enhancements to Sitecore Rocks (Visual Studio a
 * Pipeline Dump
 * Import/Export Settings
 * Copy Short ID to Clipboard
+* Duplicate Latest Version Only
 
 ## Getting Started
 
